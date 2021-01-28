@@ -1,15 +1,14 @@
 .view {
   padding-top: 30px;
-  display: flex;
   max-width: 935px;
-  margin: auto;
 }
 
 .section {
+  float: left;
   width: 614px;
   margin-right: 28px;
   margin-bottom: 40px;
-  position: relative;
+  display: block;
   background-color: #ffffff;
 }
 

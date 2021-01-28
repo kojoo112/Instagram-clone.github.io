@@ -1,6 +1,23 @@
 .aside {
   max-width: 293px;
   z-index: 90;
+  float: right;
+}
+
+@media screen and (max-width: 999px) {
+  .aside {
+    display: none;
+  }
+  .section {
+    float: none;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .view {
+    margin: auto;
+  }
 }
 
 .myProfile {
