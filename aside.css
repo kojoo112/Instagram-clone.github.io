@@ -1,7 +1,7 @@
 .aside {
   max-width: 293px;
   z-index: 90;
-  float: right;
+  display: inline;
 }
 
 @media screen and (max-width: 999px) {
@@ -11,6 +11,13 @@
   .section {
     float: none;
     margin: auto;
+  }
+  .content {
+    max-width: 614px;
+    margin: auto;
+  }
+  .appBar {
+    width: 100%;
   }
 }
 
