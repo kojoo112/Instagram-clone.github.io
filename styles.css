@@ -2,3 +2,6 @@
 @import "topNav.css";
 @import "content.css";
 @import "aside.css";
+html {
+  min-width: 390px;
+}

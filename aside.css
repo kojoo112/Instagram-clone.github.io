@@ -3,6 +3,14 @@
   z-index: 90;
   display: inline;
 }
+@media screen and (max-width: 620px) {
+  .search {
+    display: none;
+  }
+  .logo {
+    position: absolute;
+  }
+}
 
 @media screen and (max-width: 999px) {
   .aside {
@@ -15,6 +23,7 @@
   .content {
     max-width: 614px;
     margin: auto;
+    background-color: #ffffff;
   }
 }
 

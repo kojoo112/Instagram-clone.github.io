@@ -6,7 +6,6 @@ header {
 
 .appBarw {
   background-color: #ffffff;
-  width: 100%;
   border-bottom: 1px solid #ebebeb;
 }
 .appBar {
@@ -25,7 +24,8 @@ header {
 }
 
 .logo {
-  top: 7px;
+  position: absolute;
+  top: 16px;
   width: 103px;
 }
 
@@ -43,7 +43,7 @@ ul {
 }
 
 .appBarMenu {
-  margin-left: 138px;
+  float: right;
   width: 222px;
   height: 22px;
   padding-left: 24px;
@@ -78,6 +78,7 @@ input[type="text"] {
 }
 
 .search {
+  outline: none;
   width: 199px;
   height: 12px;
   padding: 7px;
